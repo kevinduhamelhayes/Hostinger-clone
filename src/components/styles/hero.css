@@ -1,0 +1,54 @@
+.container-hero{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  gap: 20px 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.img-hero{
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.hero-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+.hero-left h1{
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+}
+.hero-left h2{
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--secondary-color);
+  display: inline;
+  margin-bottom: 20px;
+}
+.ofert-btn{
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  display: inline-block;
+  border-radius: 5px;
+  transition: 0.3s;
+  border: transparent 2px solid;
+}
+.hero-left li{
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--secondary-color);
+list-style: none;
+  margin-bottom: 20px;
+}
