@@ -11,6 +11,8 @@
   --secondary-color: #5025D1;
   --dark-color: #fff;
   --light-color: black;
+  --primary-color-card: #E3EAFF;
+  --gray: #A9A9A9;
   
   --shadow-color: #fff;
 }
@@ -19,6 +21,9 @@
   --secondary-color: #2F1C6A;
   --dark-color: black;
   --light-color: #fff;
+  --primary-color-card: #E3EAFF;
+  --gray: #A9A9A9;
+  --bg-discont: #EBE4FF;
 }
 .App{
   background-color: var(--light-color);
