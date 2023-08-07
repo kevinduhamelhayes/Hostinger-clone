@@ -36,6 +36,8 @@
 }
 .li-funtions{
   list-style: none;
+  font-size: 15px;
+  font-weight: 400;
 }
 .card-title{
   font-size: 25px;
@@ -50,7 +52,8 @@
   font-weight: 400;
   color: var(--secondary-color);
   margin-bottom: 35px;
-}.price-tach{
+}
+.price-tach{
   margin-top: 30px;
   font-size: 15px;
   font-weight: 400;
@@ -90,7 +93,7 @@ font-weight: 600;
   margin-top: 40px;
 }
 .price-inline{
-  font-size: 35px;
+  font-size: 45px;
   font-weight: 600;
   color: var(--secondary-color);
   margin-bottom: 20px;
@@ -98,6 +101,7 @@ font-weight: 600;
 }
 .twofrees{
 font-size: 15px;
+color: var(--primary-color);
 margin-bottom: 15px;
 }
 .car{
@@ -112,7 +116,6 @@ margin-bottom: 15px;
   text-decoration: none;
   font-size: 18px;
   font-weight: 600;
-
 }
 .car:hover{
   transition: 0.3s;
@@ -131,5 +134,46 @@ background-color: var(--secondary-color);
   font-size: 15px;
   font-weight: 400;
   margin-bottom: 10px;
+}
+.funtions{
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 600;
+  column-gap: 100px;
+  margin-left: 30px;
+  padding-bottom: 20px;
+}
+.price-tach1{
+  margin-left: 70px;
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--gray);
+  margin-bottom: 20px;
+  text-decoration: line-through;
+  display: inline;
+}
 
+.price-ahorro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  max-height: 20px;
+}
+hr {
+  border: none; /* Elimina el borde por defecto */
+  height: 3px; /* Define el grosor de la línea */
+  background-color: var(--primary-color-card); /* Define el color de la línea */
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.funtions-h2{
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin-bottom: 15px;
 }
