@@ -6,6 +6,9 @@ import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import Historys from "./components/Historys"
+import Solutions from "./components/Solutions"
+import Maximiza from "./components/Maximiza"
+import EstamosAqui from "./components/EstamosAqui"
 function App() {
   const [darkMode, setDarkMode] = useState(false)
   return (
@@ -15,6 +18,9 @@ function App() {
       <Body />
       <Cards />
       <Historys />
+      <Solutions />
+      <Maximiza />
+      <EstamosAqui />
       <Contact />
       <Footer />
     </div>
