@@ -5,6 +5,10 @@ import React from "react"
 
 const Cards = () => {
   return (
+    <>
+    <div className="titulito">
+      <span className="span-del-titulito">Elegí tu plan ideal de alojamiento web sin impuestos extra</span>
+    </div>
     <div className="container-ppal">
       <div className="container-cards">
         <div className="card">
@@ -14,7 +18,7 @@ const Cards = () => {
               El paquete perfecto para webs personales
             </h2>
             <div className="price-ahorro">
-              <h2 className="price-tach">ars4300</h2>
+              <h2 className="price-tach">ar$ 4300,00</h2>
               <span className="ahorro">ahorra70%</span>
             </div>
           </div>
@@ -28,7 +32,6 @@ const Cards = () => {
           <div className="ppal-funtions">
             <h2 className="price-tach1">AR$2299.00 /mes al renovar</h2>
             <hr />
-
             <ul className="funtions">
               <h2 className="funtions-h2">Funciones principales</h2>
               <li className="li-funtions">
@@ -191,7 +194,7 @@ const Cards = () => {
               </li>
               <li className="li-funtions">
                 {" "}
-                <FaCheck color="green" />
+                <FaX color="red" />
                 Herramientas de eCommerce
               </li>
               <li className="li-funtions">
@@ -201,7 +204,7 @@ const Cards = () => {
               </li>
               <li className="li-funtions">
                 {" "}
-                <FaCheck color="green" />
+                <FaX color="red" />
                 +20 metodos de pago
               </li>
             </ul>
@@ -209,7 +212,7 @@ const Cards = () => {
               <h2 className="funtions-h2">Seguridad</h2>
               <li className="li-funtions">
                 {" "}
-                <FaCheck color="green" />
+                <FaCheck color="orange" />
                 Protección DDoS estándar
               </li>
               <li className="li-funtions">
@@ -263,7 +266,7 @@ const Cards = () => {
               </li>
               <li className="li-funtions">
                 {" "}
-                <FaCheck color="green" />
+                <FaX color="red" />
                 Asistencia prioritaria
               </li>
             </ul>
@@ -272,7 +275,7 @@ const Cards = () => {
 
               <li className="li-funtions">
                 {" "}
-                <FaCheck color="green" />
+                <FaCheck color="orange" />
                 100 subdominios
               </li>
               <li className="li-funtions">
@@ -304,32 +307,33 @@ const Cards = () => {
           </div>
         </div>
         <div className="card">
+          <h2 className="globito">Mas Vendido</h2>
           <div className="card-header">
-            <h1 className="card-title">Premium</h1>
+            <h1 className="card-title">Business</h1>
             <h2 className="card-subtitle">
-              El paquete perfecto para webs personales
+              Optimizado para negocios pequeños y medianos
             </h2>
             <div className="price-ahorro">
-              <h2 className="price-tach">ars4300</h2>
-              <span className="ahorro">ahorra70%</span>
+              <h2 className="price-tach">ar$6399.00</h2>
+              <span className="ahorro" id="car3">AHORRA 69%</span>
             </div>
           </div>
           <div className="price-container">
             <h2 className="inline">ar$</h2>
-            <h1 className="price-inline">1299,00</h1>
+            <h1 className="price-inline">1999,00</h1>
             <h2 className="inline">/mes</h2>
           </div>
-          <h2 className="twofrees">+2 meses gratis</h2>
-          <button className="car">add to car</button>
+          <h2 className="twofrees" id="car2">+2 meses gratis</h2>
+          <button className="car" id="car">add to car</button>
           <div className="ppal-funtions">
-            <h2 className="price-tach1">AR$2299.00 /mes al renovar</h2>
+            <h2 className="price-tach1">AR$4499.00 /mes al renovar</h2>
             <hr />
 
             <ul className="funtions">
               <h2 className="funtions-h2">Funciones principales</h2>
               <li className="li-funtions">
                 {" "}
-                <FaCheck color="orange" />
+                <FaCheck color="green" />
                 rendimiento standar
               </li>
               <li className="li-funtions">
@@ -339,7 +343,7 @@ const Cards = () => {
               </li>
               <li className="li-funtions">
                 {" "}
-                <FaCheck color="orange" />
+                <FaCheck color="green" />
                 100GB de SSD
               </li>
               <li className="li-funtions">
@@ -369,7 +373,7 @@ const Cards = () => {
               </li>
               <li className="li-funtions">
                 {" "}
-                <FaX color="red" />
+                <FaCheck color="green" />
                 CDN gratis
               </li>
               <li className="li-funtions">
@@ -380,10 +384,9 @@ const Cards = () => {
             </ul>
             <ul className="funtions">
               <h2 className="funtions-h2">WordPress hosting gestionado</h2>
-
               <li className="li-funtions">
                 {" "}
-                <FaCheck color="orange" />
+                <FaCheck color="green" />
                 Optimización de WooCommerce básica
               </li>
               <li className="li-funtions">
@@ -423,17 +426,17 @@ const Cards = () => {
               </li>
               <li className="li-funtions">
                 {" "}
-                <FaX color="red" />
+                <FaCheck color="green" />
                 WordPress staging
               </li>
               <li className="li-funtions">
                 {" "}
-                <FaX color="red" />
+                <FaCheck color="green" />
                 Object Cache para WordPress
               </li>
               <li className="li-funtions">
                 {" "}
-                <FaX color="red" />
+                <FaCheck color="gren" />
                 Copia de seguridad bajo demanda
               </li>
             </ul>
@@ -601,41 +604,41 @@ const Cards = () => {
         </div>{" "}
         <div className="card">
           <div className="card-header">
-            <h1 className="card-title">Premium</h1>
+            <h1 className="card-title">Cloud Startup</h1>
             <h2 className="card-subtitle">
-              El paquete perfecto para webs personales
+              Disfruta de un rendimiento optimizado y recursos dedicados
             </h2>
             <div className="price-ahorro">
-              <h2 className="price-tach">ars4300</h2>
-              <span className="ahorro">ahorra70%</span>
+              <h2 className="price-tach">ar$ 12999,00</h2>
+              <span className="ahorro">AHORRA 62%</span>
             </div>
           </div>
           <div className="price-container">
             <h2 className="inline">ar$</h2>
-            <h1 className="price-inline">1299,00</h1>
+            <h1 className="price-inline">4999,00</h1>
             <h2 className="inline">/mes</h2>
           </div>
-          <h2 className="twofrees">+2 meses gratis</h2>
+          <h2 className="twofrees">+3 meses gratis</h2>
           <button className="car">add to car</button>
           <div className="ppal-funtions">
-            <h2 className="price-tach1">AR$2299.00 /mes al renovar</h2>
+            <h2 className="price-tach1">AR$9999.00 /mes al renovar</h2>
             <hr />
 
             <ul className="funtions">
               <h2 className="funtions-h2">Funciones principales</h2>
               <li className="li-funtions">
                 {" "}
-                <FaCheck color="orange" />
-                rendimiento standar
+                <FaCheck color="green" />
+                rendimiento MAXIMO
               </li>
               <li className="li-funtions">
                 {" "}
-                <FaCheck color="orange" />
+                <FaCheck color="green" />
                 100 sitios web
               </li>
               <li className="li-funtions">
                 {" "}
-                <FaCheck color="orange" />
+                <FaCheck color="green" />
                 100GB de SSD
               </li>
               <li className="li-funtions">
@@ -665,12 +668,12 @@ const Cards = () => {
               </li>
               <li className="li-funtions">
                 {" "}
-                <FaX color="red" />
+                <FaCheck color="green" />
                 CDN gratis
               </li>
               <li className="li-funtions">
                 {" "}
-                <FaX color="red" />
+                <FaCheck color="green" />
                 IP dedicada
               </li>
             </ul>
@@ -719,23 +722,22 @@ const Cards = () => {
               </li>
               <li className="li-funtions">
                 {" "}
-                <FaX color="red" />
+                <FaCheck color="green" />
                 WordPress staging
               </li>
               <li className="li-funtions">
                 {" "}
-                <FaX color="red" />
+                <FaCheck color="green" />
                 Object Cache para WordPress
               </li>
               <li className="li-funtions">
                 {" "}
-                <FaX color="red" />
+                <FaCheck color="green" />
                 Copia de seguridad bajo demanda
               </li>
             </ul>
             <ul className="funtions">
               <h2 className="funtions-h2">Creador de sitios web sin código</h2>
-
               <li className="li-funtions">
                 {" "}
                 <FaCheck color="green" />
@@ -897,6 +899,7 @@ const Cards = () => {
         </div>
       </div>
     </div>
+    </>
   )
 }
 
