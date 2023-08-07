@@ -1,0 +1,28 @@
+.historys-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  margin-bottom: 40px;
+background-color: #FAFBFF;
+}
+.h1-historys{
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+}
+.p-historys{
+  font-size: 20px;
+  max-width: 80%;
+  font-weight: 400;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+  text-align: center;
+}
+.img-historys{
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+}
