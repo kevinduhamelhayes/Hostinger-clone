@@ -6,7 +6,8 @@ const Navbar = ({ setDarkMode, darkMode }) => {
     <nav className="navbar">
       <div className="right">
         <ul className="ul-nav-right">
-          <li className="li-nav-right">Logo</li>
+          <li className="li-nav-right"><img className="logo" src="./public/hostinger.svg" alt="" /></li>
+          <li className="li-nav-right1">Hostinger</li>
           <li className="li-nav-right">Languages</li>
         </ul>
       </div>

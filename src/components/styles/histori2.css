@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  margin: 30px;
   max-width: 100%;
   background: var(--light-color);
 }
@@ -84,7 +84,13 @@
   color: #fff;
 }
 .garantia-histori2{
-
   color: #673DE6;
-
+}
+.histori2-span{
+  padding-top: 30px;
+}
+.histori2-stars{
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 10px;
 }

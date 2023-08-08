@@ -22,11 +22,9 @@ const Hero = () => {
         </div>
         <button className="ofert-btn">Obtener oferta</button>
       </div>
-      <div className="hero-right">
-        <figure>
+        <figure className="hero-right">
           <img className="img-hero" src="./public/img-hero.webp" alt="" />
         </figure>
-      </div>
     </main>
   )
 }

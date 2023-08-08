@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   max-width: 100%;
-  background: #673DE6;
+  background:var(--cards-security-bg);
 
 }
 .grid-security{
@@ -23,7 +23,7 @@
 .security-h1{
   font-size: 40px;
   font-weight: 700;
-  color: #fff;
+  color: var(--light-color);
   margin-bottom: 20px;
   margin-top: 80px;
   margin-left: 30px;
@@ -41,14 +41,14 @@
 }
 .li-security{
   margin-bottom: 20px;
-  color: #fff;
+  color: var(--light-color);
 }
 .cards-security-button{
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 30px;
-  background-color: #5025D1;
-  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  background-color: var(--primary-color);
+  color: var(--light-color);
 }
 .container-security-bottom{
   display:grid;

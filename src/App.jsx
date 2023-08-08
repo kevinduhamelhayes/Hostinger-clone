@@ -27,7 +27,6 @@ function App() {
       <Security />
       <FreeMigration />
       <Histori2 />
-      <Contact />
       <Footer />
     </div>
   )

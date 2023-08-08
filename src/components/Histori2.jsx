@@ -7,11 +7,11 @@ const Histori2 = () => {
       <h1 className="histori2-h1">Historias de éxito de Hostinger</h1>
       <div className="grid-histori2">
         <div className="histori2-cart">
-          <h1 className="histori2-h1">
+          <div className="histori2-stars">
             <FaStar color="#673DE6" size={28} /> <FaStar color="#673DE6" size={28} />{" "}
             <FaStar color="#673DE6" size={28} /> <FaStar color="#673DE6" size={28} />{" "}
-            <FaStar color="#673DE6" size={28} />
-          </h1>
+            <FaStar color="#673DE6" size={28} />{" "}
+          </div>
           <p className="histori2-p">
             No tengo demasiada experiencia como para hacer cosas con
             computadoras, pero mi amigo me tranquilizó y me recomendó Hostinger.
@@ -24,17 +24,17 @@ const Histori2 = () => {
               <img src="" alt="" className="histori-img" />
             </figure>
             <div className="histori2-names">
-              <h1 className="histori2-h1">Nombre Apellido</h1>
+              <span className="histori2-span">Nombre Apellido</span>
               <p className="histori2-p">CEO de la empresa</p>
             </div>
           </div>
         </div>
         <div className="histori2-cart">
-          <h1 className="histori2-h1">
+          <div className="histori2-stars">
             <FaStar color="#673DE6" size={28} /> <FaStar color="#673DE6" size={28} />{" "}
             <FaStar color="#673DE6" size={28} /> <FaStar color="#673DE6" size={28} />{" "}
             <FaStar color="#673DE6" size={28} />{" "}
-          </h1>
+          </div>
           <p className="histori2-p">
             Estaba buscando una empresa de hosting que fuera muy intuitiva para
             principiantes y bien configurada para un bien rendimiento.
@@ -45,17 +45,17 @@ const Histori2 = () => {
               <img src="" alt="" className="histori-img" />
             </figure>
             <div className="histori2-names">
-              <h1 className="histori2-h1">Nombre Apellido</h1>
+              <span className="histori2-span">Nombre Apellido</span>
               <p className="histori2-p">CEO de la empresa</p>
             </div>
           </div>
         </div>
         <div className="histori2-cart">
-          <h1 className="histori2-h1">
+        <div className="histori2-stars">
             <FaStar color="#673DE6" size={28} /> <FaStar color="#673DE6" size={28} />{" "}
             <FaStar color="#673DE6" size={28} /> <FaStar color="#673DE6" size={28} />{" "}
             <FaStar color="#673DE6" size={28} />{" "}
-          </h1>
+          </div>
           <p className="histori2-p">
             El instalador de WordPress de un clic de Hostinger me ayuda a
             configurar la plataforma y el sitio web rápidamente.
@@ -66,7 +66,7 @@ const Histori2 = () => {
               <img src="" alt="" className="histori-img" />
             </figure>
             <div className="histori2-names">
-              <h1 className="histori2-h1">Nombre Apellido</h1>
+              <span className="histori2-span">Nombre Apellido</span>
               <p className="histori2-p">CEO de la empresa</p>
             </div>
           </div>

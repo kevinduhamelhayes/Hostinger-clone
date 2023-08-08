@@ -1,7 +1,7 @@
 import { FaCheck } from "react-icons/fa"
 import { FaX } from "react-icons/fa6"
 import "./styles/cards.css"
-import React from "react"
+
 
 const Cards = () => {
   return (
