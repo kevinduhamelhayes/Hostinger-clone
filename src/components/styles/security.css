@@ -1,34 +1,34 @@
-.estamosaqui-container{
+.security-container{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   max-width: 100%;
-  background: var(light-color);
+  background: #673DE6;
 
 }
-.grid-estamosaqui{
+.grid-security{
   display: grid;
   margin-top: 20px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   column-gap: 100px;
 }
-.estamosaqui-img{
+.security-img{
   margin-top: 80px;
   width: 80%;
   height: 80%;
   object-fit: cover;
 }
-.estamosaqui-h1{
+.security-h1{
   font-size: 40px;
   font-weight: 700;
-  color: var(--secondary-color);
+  color: #fff;
   margin-bottom: 20px;
   margin-top: 80px;
   margin-left: 30px;
 }
-.ul-estamosaqui{
+.ul-security{
   margin-top: 30px;
   list-style: none;
   font-size: 15px;
@@ -36,19 +36,21 @@
   margin-bottom: 20px;
   margin-left: 30px;
 }
-.estamosaqui-left{
+.security-left{
   margin-left: 90px;
 }
-.li-estamosaqui{
+.li-security{
   margin-bottom: 20px;
+  color: #fff;
 }
-.cards-estamosaqui-button{
+.cards-security-button{
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: 30px;
-  background-color: #FAFBFF ;
+  background-color: #5025D1;
+  color: #fff;
 }
-.container-estamosaqui-bottom{
+.container-security-bottom{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
@@ -56,18 +58,18 @@
   margin-top: 30px;
   max-width: 1200px;
 }
-p{
+.p-purpple{
   font-size: 15px;
-  color: var(--secondary-color);
+  color: #fff;
   font-weight: 400;
   margin-bottom: 20px;
   margin-left: 30px;
   margin-top: 20px;
 }
-.h1-estamosaqui-bottom{
+.h1-security-bottom{
   font-size: 25px;
   font-weight: 700;
-  color: var(--secondary-color);
+  color: #fff;
   margin-bottom: 20px;
   margin-left: 30px;
   margin-top: 20px;

@@ -9,6 +9,7 @@ import Historys from "./components/Historys"
 import Solutions from "./components/Solutions"
 import Maximiza from "./components/Maximiza"
 import EstamosAqui from "./components/EstamosAqui"
+import Security from "./components/Security"
 function App() {
   const [darkMode, setDarkMode] = useState(false)
   return (
@@ -21,6 +22,7 @@ function App() {
       <Solutions />
       <Maximiza />
       <EstamosAqui />
+      <Security />
       <Contact />
       <Footer />
     </div>
