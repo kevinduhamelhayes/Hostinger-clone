@@ -1,0 +1,90 @@
+.container-histori2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  max-width: 100%;
+  background: var(--light-color);
+}
+.histori2-h1{
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.grid-histori2{
+  display: grid;
+  max-width: 1200px;
+  margin-top: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  column-gap: 100px;
+}
+.histori2-cart{
+  box-shadow: 0px 0px 10px 0px #673DE6;
+}
+.histori2-strong{
+  font-size: 15px;
+  font-weight: 700;
+  color: #673DE6;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.histori2-names{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  align-items: flex-start;
+}
+.histori2-h1{
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+.footer-histori2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  max-width: 100%;
+  background: var(--light-color);
+  color: var(--secondary-color);
+  font-size: 35px;
+  font-weight: 700;
+}
+.ver-mas-historias{
+  margin-top: 40px;
+  padding: 20px 70px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  background-color: #fff;
+  color: #673DE6;
+  border-radius: 5px;
+  border: #673DE6 3px solid;
+}
+.btn-histori2{
+  margin-top: 30px;
+  padding: 15px 70px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  background-color: #673DE6;
+  color: #fff;
+}
+.garantia-histori2{
+
+  color: #673DE6;
+
+}

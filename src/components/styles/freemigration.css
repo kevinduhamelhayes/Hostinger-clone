@@ -1,4 +1,4 @@
-.estamosaqui-container{
+.freemigration-container{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,28 +7,28 @@
   background: var(light-color);
 
 }
-.grid-estamosaqui{
+.grid-freemigration{
   display: grid;
   margin-top: 20px;
-  max-width: 1200px;
-  grid-template-columns: 2fr 3fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   column-gap: 100px;
-
 }
-.estamosaqui-img{
-  width: 100%;
-  height: 100%;
-
+.freemigration-img{
+  margin-top: 80px;
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
 }
-.estamosaqui-h1{
+.freemigration-h1{
   font-size: 40px;
   font-weight: 700;
   color: var(--secondary-color);
   margin-bottom: 20px;
-
+  margin-top: 80px;
+  margin-left: 30px;
 }
-.ul-estamosaqui{
+.ul-freemigration{
   margin-top: 30px;
   list-style: none;
   font-size: 15px;
@@ -36,21 +36,19 @@
   margin-bottom: 20px;
   margin-left: 30px;
 }
-.estamosaqui-left{
+.freemigration-left{
   margin-left: 90px;
-  margin-top: 90px;
 }
-.li-estamosaqui{
+.li-freemigration{
   margin-bottom: 20px;
-
 }
-.cards-estamosaqui-button{
+.cards-freemigration-button{
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: 30px;
   background-color: #FAFBFF ;
 }
-.container-estamosaqui-bottom{
+.container-freemigration-bottom{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
@@ -66,10 +64,10 @@ p{
   margin-left: 30px;
   margin-top: 20px;
 }
-.h1-estamosaqui-bottom{
+.h1-freemigration-bottom{
   font-size: 25px;
   font-weight: 700;
-  color: var(--dark-color);
+  color: var(--secondary-color);
   margin-bottom: 20px;
   margin-left: 30px;
   margin-top: 20px;
@@ -77,8 +75,4 @@ p{
 .stars{
   margin-left: 30px;
   margin-top: 20px;
-}
-.ul-estamosaqui{
-  margin-left: 30px;
-  margin-top: 60px;
 }

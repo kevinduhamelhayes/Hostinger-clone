@@ -8,26 +8,20 @@ const EstamosAqui = () => {
         <div className="grid-estamosaqui">
           <div className="estamosaqui-left">
             <h1 className="estamosaqui-h1">
-              Soluciones de hosting para todos los presupuestos
+            Estamos aquí para ayudarte 24/7
             </h1>
             <ul className="ul-estamosaqui">
               <li className="li-estamosaqui">
                 <FaCheck color="#00B090" />
-                Registrá un nombre de dominio de forma gratuita.
+                Recibí ayuda de nuestros agentes en cualquier momento mediante el soporte por chat.
               </li>
               <li className="li-estamosaqui">
                 <FaCheck color="#00B090" />
-                Configurá una dirección de email comercial profesional.
+                Seguí tutoriales y guías paso a paso en video.
               </li>
               <li className="li-estamosaqui">
                 <FaCheck color="#00B090" />
-                Optimizá tu flujo de trabajo con el hosting administrado de
-                WordPress.
-              </li>
-              <li className="li-estamosaqui">
-                <FaCheck color="#00B090" />
-                Publicá páginas web rápidamente con nuestro Creador de sitios
-                web.
+                Ingresá a un amplio banco de conocimientos de tutoriales detallados.
               </li>
             </ul>
           </div>
@@ -42,7 +36,7 @@ const EstamosAqui = () => {
         <div className="container-estamosaqui-bottom">
           <div className="cards-estamosaqui-button">
             <h1 className="h1-estamosaqui-bottom">
-              <FaStar color="#00B090" /> Trustpilot
+              <FaStar color="#000" /> Trustpilot
             </h1>
             <p>
               Tengo conocimientos avanzados para la configuración pero utilizar
@@ -56,7 +50,7 @@ const EstamosAqui = () => {
           </div>
           <div className="cards-estamosaqui-button">
             <h1 className="h1-estamosaqui-bottom">
-              <FaStar color="#00B090" /> Trustpilot
+              <FaStar color="#000" /> Trustpilot
             </h1>
             <p>
               Tengo conocimientos avanzados para la configuración pero utilizar
@@ -70,7 +64,7 @@ const EstamosAqui = () => {
           </div>
           <div className="cards-estamosaqui-button">
             <h1 className="h1-estamosaqui-bottom">
-              <FaStar color="#00B090" /> Trustpilot
+              <FaStar color="#000" /> Trustpilot
             </h1>
             <p>
               Tengo conocimientos avanzados para la configuración pero utilizar

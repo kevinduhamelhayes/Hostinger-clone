@@ -5,27 +5,27 @@
   align-items: center;
   max-width: 100%;
   background: var(light-color);
-
 }
 .grid-maximiza{
+  max-width: 1500px;
   display: grid;
   margin-top: 20px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  column-gap: 100px;
 }
 .maximiza-img{
-  margin-top: 80px;
-  width: 80%;
-  height: 80%;
-  object-fit: cover;
+  margin-top: 120px;
+  margin-left: 80px;
+  width: 70%;
+  height: 70%;
+
 }
 .maximiza-h1{
   font-size: 40px;
   font-weight: 700;
   color: var(--secondary-color);
   margin-bottom: 20px;
-  margin-top: 80px;
+  margin-top: 150px;
   margin-left: 30px;
 }
 .ul-maximiza{
@@ -67,7 +67,7 @@ p{
 .h1-maximiza-bottom{
   font-size: 25px;
   font-weight: 700;
-  color: var(--secondary-color);
+  color: var(--dark-color);
   margin-bottom: 20px;
   margin-left: 30px;
   margin-top: 20px;

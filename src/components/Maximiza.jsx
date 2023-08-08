@@ -11,34 +11,29 @@ const Maximiza = () => {
           </figure>
           <div className="maximiza-left">
             <h1 className="maximiza-h1">
-              Soluciones de hosting para todos los presupuestos
+            Maximizá la velocidad del sitio web
             </h1>
             <ul className="ul-maximiza">
               <li className="li-maximiza">
                 <FaCheck color="#00B090" />
-                Registrá un nombre de dominio de forma gratuita.
+                Maximizá el rendimiento con la tecnología del servidor web LiteSpeed.
               </li>
               <li className="li-maximiza">
                 <FaCheck color="#00B090" />
-                Configurá una dirección de email comercial profesional.
+                Aprovechá el rendimiento optimizado con soluciones de caché avanzadas.
               </li>
               <li className="li-maximiza">
                 <FaCheck color="#00B090" />
-                Optimizá tu flujo de trabajo con el hosting administrado de
-                WordPress.
+                Reducí los tiempos de respuesta del sitio web hasta 3 veces con Object Cache para WordPress.
               </li>
-              <li className="li-maximiza">
-                <FaCheck color="#00B090" />
-                Publicá páginas web rápidamente con nuestro Creador de sitios
-                web.
-              </li>
+              
             </ul>
           </div>
         </div>
         <div className="container-maximiza-bottom">
           <div className="cards-maximiza-button">
             <h1 className="h1-maximiza-bottom">
-              <FaStar color="#00B090" /> Trustpilot
+              <FaStar color="#00B090" /> HOSTING VICTORY
             </h1>
             <p>
               Tengo conocimientos avanzados para la configuración pero utilizar
@@ -52,7 +47,7 @@ const Maximiza = () => {
           </div>
           <div className="cards-maximiza-button">
             <h1 className="h1-maximiza-bottom">
-              <FaStar color="#00B090" /> Trustpilot
+              <FaStar color="#00B090" /> Software.lab
             </h1>
             <p>
               Tengo conocimientos avanzados para la configuración pero utilizar
@@ -66,7 +61,7 @@ const Maximiza = () => {
           </div>
           <div className="cards-maximiza-button">
             <h1 className="h1-maximiza-bottom">
-              <FaStar color="#00B090" /> Trustpilot
+              <FaStar color="#00B090" /> bitcatcha
             </h1>
             <p>
               Tengo conocimientos avanzados para la configuración pero utilizar
