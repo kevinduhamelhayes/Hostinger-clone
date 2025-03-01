@@ -7,25 +7,27 @@
   box-sizing: border-box;
 }
 .dark-mode {
-  --primary-color: #2F1C6A;
-  --secondary-color: #5025D1;
+  --primary-color: #8B6FFF;
+  --secondary-color: #A28BFF;
+  --cards-security-bg: #9F7CFF;
   --dark-color: #fff;
-  --light-color: black;
-  --primary-color-card: #E3EAFF;
-  --gray: #fff;
-  --bg-discont: #EBE4FF;
-  --shadow-color: #fff;
-  --bg-history: #FAFBFF;
+  --light-color: #121212;
+  --primary-color-card: #2D2D3A;
+  --gray: #E0E0E0;
+  --bg-discont: #2A2A38;
+  --shadow-color: rgba(255, 255, 255, 0.1);
+  --bg-history: #1A1A25;
 }
 .light-mode {
   --primary-color: #5025D1;
   --secondary-color: #2F1C6A;
-  --cards-security-bg:#673DE6;
+  --cards-security-bg: #673DE6;
   --dark-color: black;
   --light-color: #fff;
   --primary-color-card: #E3EAFF;
   --gray: #A9A9A9;
   --bg-discont: #EBE4FF;
+  --shadow-color: rgba(0, 0, 0, 0.1);
   --bg-history: #FAFBFF;
 }
 .App{

@@ -4,7 +4,8 @@
   justify-content: center;
   align-items: center;
   max-width: 100%;
-  background: var(light-color);
+  background: var(--light-color);
+  transition: all 0.3s ease-in-out;
 }
 .grid-maximiza{
   max-width: 1500px;
@@ -12,21 +13,22 @@
   margin-top: 20px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
+  width: 100%;
 }
 .maximiza-img{
   margin-top: 120px;
   margin-left: 80px;
   width: 70%;
   height: 70%;
-
 }
 .maximiza-h1{
   font-size: 40px;
   font-weight: 700;
-  color: var(--secondary-color);
+  color: var(--dark-color);
   margin-bottom: 20px;
   margin-top: 150px;
   margin-left: 30px;
+  transition: color 0.3s ease-in-out;
 }
 .ul-maximiza{
   margin-top: 30px;
@@ -35,34 +37,41 @@
   font-weight: 300;
   margin-bottom: 20px;
   margin-left: 30px;
+  color: var(--dark-color);
+  transition: color 0.3s ease-in-out;
 }
 .maximiza-left{
   margin-left: 90px;
 }
 .li-maximiza{
   margin-bottom: 20px;
+  color: var(--dark-color);
+  transition: color 0.3s ease-in-out;
 }
 .cards-maximiza-button{
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: 30px;
-  background-color: #FAFBFF ;
+  background-color: var(--bg-history);
+  transition: background-color 0.3s ease-in-out;
 }
 .container-maximiza-bottom{
-  display:grid;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   column-gap: 100px;
   margin-top: 30px;
   max-width: 1200px;
+  width: 100%;
 }
-p{
+.maximiza-p{
   font-size: 15px;
-  color: var(--secondary-color);
+  color: var(--dark-color);
   font-weight: 400;
   margin-bottom: 20px;
   margin-left: 30px;
   margin-top: 20px;
+  transition: color 0.3s ease-in-out;
 }
 .h1-maximiza-bottom{
   font-size: 25px;
@@ -71,8 +80,30 @@ p{
   margin-bottom: 20px;
   margin-left: 30px;
   margin-top: 20px;
+  transition: color 0.3s ease-in-out;
 }
 .stars{
   margin-left: 30px;
   margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .grid-maximiza {
+    grid-template-columns: 1fr;
+  }
+  
+  .maximiza-left {
+    margin-left: 20px;
+  }
+  
+  .maximiza-img {
+    margin-left: 0;
+    width: 90%;
+    margin: 20px auto;
+  }
+  
+  .container-maximiza-bottom {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
 }

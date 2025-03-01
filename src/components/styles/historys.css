@@ -6,20 +6,23 @@
   align-items: center;
   padding-bottom: 40px;
   background-color: var(--bg-history);
+  transition: all 0.3s ease-in-out;
 }
 .h1-historys{
   font-size: 40px;
   font-weight: 700;
-  color: var(--secondary-color);
+  color: var(--dark-color);
   margin-bottom: 20px;
+  transition: color 0.3s ease-in-out;
 }
 .p-historys{
   font-size: 20px;
   max-width: 80%;
   font-weight: 400;
-  color: var(--secondary-color);
+  color: var(--dark-color);
   margin-bottom: 20px;
   text-align: center;
+  transition: color 0.3s ease-in-out;
 }
 .img-historys{
   width: 100%;

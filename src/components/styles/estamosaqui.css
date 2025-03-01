@@ -4,8 +4,8 @@
   justify-content: center;
   align-items: center;
   max-width: 100%;
-  background: var(light-color);
-
+  background: var(--light-color);
+  transition: all 0.3s ease-in-out;
 }
 .grid-estamosaqui{
   display: grid;
@@ -14,19 +14,18 @@
   grid-template-columns: 2fr 3fr;
   grid-template-rows: 1fr;
   column-gap: 100px;
-
+  width: 100%;
 }
 .estamosaqui-img{
   width: 100%;
   height: 100%;
-
 }
 .estamosaqui-h1{
   font-size: 40px;
   font-weight: 700;
-  color: var(--secondary-color);
+  color: var(--dark-color);
   margin-bottom: 20px;
-
+  transition: color 0.3s ease-in-out;
 }
 .ul-estamosaqui{
   margin-top: 30px;
@@ -35,6 +34,8 @@
   font-weight: 300;
   margin-bottom: 20px;
   margin-left: 30px;
+  color: var(--dark-color);
+  transition: color 0.3s ease-in-out;
 }
 .estamosaqui-left{
   margin-left: 90px;
@@ -42,29 +43,33 @@
 }
 .li-estamosaqui{
   margin-bottom: 20px;
-
+  color: var(--dark-color);
+  transition: color 0.3s ease-in-out;
 }
 .cards-estamosaqui-button{
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: 30px;
-  background-color: #FAFBFF ;
+  background-color: var(--bg-history);
+  transition: background-color 0.3s ease-in-out;
 }
 .container-estamosaqui-bottom{
-  display:grid;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   column-gap: 100px;
   margin-top: 30px;
   max-width: 1200px;
+  width: 100%;
 }
-p{
+.estamosaqui-p{
   font-size: 15px;
-  color: var(--secondary-color);
+  color: var(--dark-color);
   font-weight: 400;
   margin-bottom: 20px;
   margin-left: 30px;
   margin-top: 20px;
+  transition: color 0.3s ease-in-out;
 }
 .h1-estamosaqui-bottom{
   font-size: 25px;
@@ -73,6 +78,7 @@ p{
   margin-bottom: 20px;
   margin-left: 30px;
   margin-top: 20px;
+  transition: color 0.3s ease-in-out;
 }
 .stars{
   margin-left: 30px;
@@ -81,4 +87,20 @@ p{
 .ul-estamosaqui{
   margin-left: 30px;
   margin-top: 60px;
+}
+
+@media (max-width: 768px) {
+  .grid-estamosaqui {
+    grid-template-columns: 1fr;
+  }
+  
+  .estamosaqui-left {
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+  
+  .container-estamosaqui-bottom {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
 }

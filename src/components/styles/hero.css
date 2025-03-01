@@ -7,6 +7,7 @@
   column-gap: 100px;
   margin-left: 70px;
   margin-right: 50px;
+  transition: all 0.3s ease-in-out;
 }
 .img-hero{
   margin-left: 50px;
@@ -25,28 +26,32 @@
 .h1-hero-in-line{
   font-size: 40px;
   font-weight: 700;
-  color: var(--secondary-color);
+  color: var(--dark-color);
   margin-bottom: 20px;
   display: inline;
+  transition: color 0.3s ease-in-out;
 }
 .h1-title-hero{
   font-size: 40px;
   font-weight: 700;
-  color: var(--secondary-color);
+  color: var(--dark-color);
   margin-bottom: 20px;
+  transition: color 0.3s ease-in-out;
 }
 .h2-subtitle-hero{
   font-size: 25px;
   font-weight: 400;
-  color: var(--secondary-color);
+  color: var(--dark-color);
   margin-bottom: 20px;
+  transition: color 0.3s ease-in-out;
 }
 .h2-hero-in-line{
   font-size: 20px;
   font-weight: 400;
-  color: var(--secondary-color);
+  color: var(--dark-color);
   display: inline;
   margin-bottom: 20px;
+  transition: color 0.3s ease-in-out;
 }
 .ofert-btn{
   background-color: var(--primary-color);
@@ -57,15 +62,20 @@
   font-size: 25px;
   display: inline-block;
   border-radius: 5px;
-  transition: 0.3s;
+  transition: all 0.3s ease-in-out;
   border: transparent 2px solid;
+}
+.ofert-btn:hover {
+  background-color: var(--secondary-color);
+  transform: translateY(-3px);
 }
 .hero-left li{
   font-size: 18px;
   font-weight: 400;
-  color: var(--secondary-color);
+  color: var(--dark-color);
   list-style: none;
   margin-bottom: 20px;
+  transition: color 0.3s ease-in-out;
 }
 .container-price{
   display: flex;
@@ -78,4 +88,21 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 768px) {
+  .container-hero {
+    grid-template-columns: 1fr;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .hero-left {
+    margin-left: 0;
+  }
+  
+  .img-hero {
+    margin-left: 0;
+    margin-top: 30px;
+  }
 }
