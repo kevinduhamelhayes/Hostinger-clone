@@ -7,44 +7,49 @@
   margin-bottom: 40px;
   column-gap: 100px;
   transition: all 0.3s ease-in-out;
+  width: 100%;
+  padding: 0 20px;
 }
 .container-cards{
   display: grid;
   width: 100%;
   max-width: 1200px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  margin-top: 70px;
-  margin-bottom: 40px;
-  column-gap: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin: 70px auto 40px;
+  gap: 30px;
+  padding: 0 20px;
 }
 .card{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   border: var(--primary-color-card) 2px solid;
   background-color: var(--light-color);
   color: var(--dark-color);
   border-radius: 15px;
   transition: all 0.3s ease-in-out;
   box-shadow: 0 5px 15px var(--shadow-color);
+  height: 100%;
+  padding: 20px;
 }
 .card:hover{
-  transform: scale(1.05);
+  transform: scale(1.03);
   box-shadow: 0 10px 25px var(--shadow-color);
 }
 .card-header{
   margin-top: 20px;
+  width: 100%;
 }
 .li-funtions{
   list-style: none;
-  font-size: 15px;
+  font-size: clamp(13px, 2vw, 15px);
   font-weight: 400;
   color: var(--dark-color);
+  margin-bottom: 8px;
 }
 .card-title{
-  font-size: 25px;
+  font-size: clamp(20px, 3vw, 25px);
   font-weight: 700;
   color: var(--dark-color);
   margin-bottom: 20px;
@@ -52,7 +57,7 @@
   transition: color 0.3s ease-in-out;
 }
 .card-subtitle{
-  font-size: 15px;
+  font-size: clamp(13px, 2vw, 15px);
   text-align: center;
   font-weight: 400;
   color: var(--dark-color);
@@ -61,7 +66,7 @@
 }
 .price-tach{
   margin-top: 30px;
-  font-size: 15px;
+  font-size: clamp(13px, 2vw, 15px);
   font-weight: 400;
   color: var(--gray);
   margin-bottom: 20px;
@@ -71,7 +76,7 @@
 }
 .ahorro{
   margin-top: 30px;
-  font-size: 15px;
+  font-size: clamp(13px, 2vw, 15px);
   margin-left: 10px;
   font-weight: 600;
   box-shadow: 0px 0px 10px 0px var(--shadow-color);
@@ -88,7 +93,7 @@
   align-items: center;
 }
 .inline{
-  font-size: 15px;
+  font-size: clamp(13px, 2vw, 15px);
   font-weight: 600;
   color: var(--dark-color);
   display: inline;
@@ -100,9 +105,10 @@
   justify-content: center;
   align-items: center;
   margin-top: 40px;
+  flex-wrap: wrap;
 }
 .price-inline{
-  font-size: 45px;
+  font-size: clamp(30px, 5vw, 45px);
   font-weight: 600;
   color: var(--dark-color);
   margin-bottom: 20px;
@@ -110,14 +116,16 @@
   transition: color 0.3s ease-in-out;
 }
 .twofrees{
-  font-size: 15px;
+  font-size: clamp(13px, 2vw, 15px);
   color: var(--primary-color);
   margin-bottom: 15px;
   transition: color 0.3s ease-in-out;
 }
 .car{
-  width: 300px;
-  height: 40px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  min-height: 40px;
   color: var(--light-color);
   background-color: var(--primary-color);
   border: transparent 2px solid;
@@ -125,9 +133,10 @@
   transition: all 0.3s ease-in-out;
   margin-bottom: 20px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: clamp(14px, 3vw, 18px);
   font-weight: 600;
   cursor: pointer;
+  padding: 10px 15px;
 }
 .car:hover {
   background-color: var(--secondary-color);
@@ -136,15 +145,15 @@
 .ppal-funtions{
   display: flex;
   flex-direction: column;
-  font-size: 18px;
+  font-size: clamp(14px, 3vw, 18px);
   font-weight: 600;
-  column-gap: 100px;
   color: var(--dark-color);
+  width: 100%;
 }
 .ppal-funtions li{
   list-style: none;
   margin-top: 8px;
-  font-size: 15px;
+  font-size: clamp(13px, 2vw, 15px);
   font-weight: 400;
   margin-bottom: 10px;
   color: var(--dark-color);
@@ -152,16 +161,16 @@
 .funtions{
   display: flex;
   flex-direction: column;
-  font-size: 18px;
+  font-size: clamp(14px, 3vw, 18px);
   font-weight: 600;
-  column-gap: 100px;
   margin-left: 30px;
   padding-bottom: 20px;
   color: var(--dark-color);
+  width: 100%;
 }
 .price-tach1{
   margin-left: 70px;
-  font-size: 15px;
+  font-size: clamp(13px, 2vw, 15px);
   font-weight: 400;
   color: var(--gray);
   margin-bottom: 20px;
@@ -169,7 +178,6 @@
   display: inline;
   transition: color 0.3s ease-in-out;
 }
-
 .price-ahorro{
   display: flex;
   justify-content: center;
@@ -177,19 +185,18 @@
   margin-top: 0px;
   margin-bottom: 0px;
   max-height: 20px;
+  flex-wrap: wrap;
 }
 hr {
   border: none;
   height: 3px;
   background-color: var(--primary-color-card);
-  margin-top: 10px;
-  margin-bottom: 30px;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin: 10px auto 30px;
+  width: calc(100% - 40px);
   transition: background-color 0.3s ease-in-out;
 }
 .funtions-h2{
-  font-size: 20px;
+  font-size: clamp(16px, 3vw, 20px);
   font-weight: 700;
   color: var(--dark-color);
   margin-bottom: 15px;
@@ -207,7 +214,7 @@ hr {
 }
 .globito{
   display: flex;
-  flex-direction: absolute;
+  flex-direction: row;
   margin-top: -20px;
   color: #fff;
   padding: 0px 20px;
@@ -221,23 +228,70 @@ hr {
   justify-content: center;
   margin-top: 120px;
   margin-bottom: 0px;
+  text-align: center;
+  padding: 0 20px;
 }
 .span-del-titulito{
-  font-size: 40px;
+  font-size: clamp(28px, 5vw, 40px);
   font-weight: 700;
   color: var(--dark-color);
   transition: color 0.3s ease-in-out;
 }
-
 @media (max-width: 1024px) {
   .container-cards {
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    padding: 15px;
+  }
+  
+  hr {
+    width: calc(100% - 20px);
   }
 }
-
 @media (max-width: 768px) {
+  .container-ppal {
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
   .container-cards {
-    grid-template-columns: 1fr;
+    margin: 40px auto 30px;
+  }
+  
+  .price-tach1 {
+    margin-left: 20px;
+  }
+  
+  .funtions {
+    margin-left: 15px;
+  }
+  
+  .titulito {
+    margin-top: 80px;
+  }
+}
+@media (max-width: 480px) {
+  .container-cards {
+    padding: 0 10px;
+  }
+  
+  .price-container {
+    flex-direction: column;
+  }
+  
+  .price-ahorro {
+    flex-direction: column;
+    align-items: center;
+    max-height: none;
+    margin-bottom: 15px;
+  }
+  
+  .ahorro {
+    margin-top: 10px;
+    margin-left: 0;
   }
 }

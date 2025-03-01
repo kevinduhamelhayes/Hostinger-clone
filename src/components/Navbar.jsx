@@ -1,7 +1,15 @@
+import { useState } from "react";
 import "./styles/navbar.css"
 import { MdDarkMode, MdOutlineDarkMode } from "react-icons/md"
+import { FaBars, FaTimes } from "react-icons/fa"
 
 const Navbar = ({ setDarkMode, darkMode }) => {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!mobileMenuOpen);
+  };
+
   return (
     <nav className="navbar">
       <div className="right">
@@ -11,7 +19,17 @@ const Navbar = ({ setDarkMode, darkMode }) => {
           <li className="li-nav-right">Languages</li>
         </ul>
       </div>
-      <div className="left">
+      
+      <button className="mobile-menu-btn" onClick={toggleMobileMenu}>
+        {mobileMenuOpen ? <FaTimes /> : <FaBars />}
+      </button>
+      
+      <div className={`left ${mobileMenuOpen ? 'active' : ''}`}>
+        {mobileMenuOpen && (
+          <button className="mobile-menu-btn close-btn" onClick={toggleMobileMenu}>
+            <FaTimes />
+          </button>
+        )}
         <ul className="ul-nav-right">
           <li className="">WordPress</li>
           <li className="">Creador de paginas Web</li>
@@ -20,7 +38,6 @@ const Navbar = ({ setDarkMode, darkMode }) => {
           <li className="">Dominios</li>
           <li className="">
             <button className="ingresar">Ingresar</button>
-
           </li>
           <li>
             <button

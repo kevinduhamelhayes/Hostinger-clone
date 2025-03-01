@@ -6,99 +6,187 @@
   max-width: 100%;
   background: var(--light-color);
   transition: all 0.3s ease-in-out;
+  padding: 40px 20px;
+  width: 100%;
 }
 .grid-freemigration{
   display: grid;
   margin-top: 20px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  column-gap: 100px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: auto;
+  gap: 40px;
   width: 100%;
   max-width: 1200px;
 }
 .freemigration-img{
-  margin-top: 80px;
-  width: 80%;
-  height: 80%;
-  object-fit: cover;
+  margin-top: 40px;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
 }
 .freemigration-h1{
-  font-size: 40px;
+  font-size: clamp(28px, 5vw, 40px);
   font-weight: 700;
   color: var(--dark-color);
   margin-bottom: 20px;
-  margin-top: 80px;
-  margin-left: 30px;
+  margin-top: 40px;
   transition: color 0.3s ease-in-out;
+  text-align: left;
+  width: 100%;
 }
 .ul-freemigration{
   margin-top: 30px;
   list-style: none;
-  font-size: 15px;
+  font-size: clamp(14px, 2vw, 15px);
   font-weight: 300;
   margin-bottom: 20px;
-  margin-left: 30px;
   color: var(--dark-color);
   transition: color 0.3s ease-in-out;
+  width: 100%;
 }
 .freemigration-left{
-  margin-left: 90px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .li-freemigration{
   margin-bottom: 20px;
   color: var(--dark-color);
   transition: color 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 .cards-freemigration-button{
   margin-top: 30px;
   margin-bottom: 30px;
-  margin-left: 30px;
   background-color: var(--bg-history);
   transition: background-color 0.3s ease-in-out;
+  padding: 15px 30px;
+  border-radius: 8px;
+  border: none;
+  color: var(--dark-color);
+  font-weight: 600;
+  cursor: pointer;
+}
+.cards-freemigration-button:hover {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+}
+.cards-freemigration-review{
+  background-color: var(--bg-history);
+  transition: background-color 0.3s ease-in-out;
+  padding: 25px;
+  border-radius: 8px;
+  color: var(--dark-color);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.cards-freemigration-review:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 .container-freemigration-bottom{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  column-gap: 100px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: auto;
+  gap: 30px;
   margin-top: 30px;
   max-width: 1200px;
   width: 100%;
+  padding: 0 20px;
 }
 .freemigration-p{
-  font-size: 15px;
+  font-size: clamp(14px, 2vw, 15px);
   color: var(--dark-color);
   font-weight: 400;
   margin-bottom: 20px;
-  margin-left: 30px;
   margin-top: 20px;
   transition: color 0.3s ease-in-out;
+  line-height: 1.6;
 }
 .h1-freemigration-bottom{
-  font-size: 25px;
+  font-size: clamp(20px, 3vw, 25px);
   font-weight: 700;
   color: var(--dark-color);
   margin-bottom: 20px;
-  margin-left: 30px;
   margin-top: 20px;
   transition: color 0.3s ease-in-out;
 }
 .stars{
-  margin-left: 30px;
   margin-top: 20px;
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 992px) {
+  .freemigration-container {
+    padding: 30px 15px;
+  }
+  
+  .freemigration-h1 {
+    margin-top: 30px;
+  }
+  
+  .freemigration-img {
+    margin-top: 30px;
+  }
 }
 
 @media (max-width: 768px) {
   .grid-freemigration {
     grid-template-columns: 1fr;
+    gap: 20px;
   }
   
   .freemigration-left {
-    margin-left: 20px;
+    padding: 0 10px;
+    order: 1;
+  }
+  
+  .freemigration-img {
+    order: 2;
+    margin-top: 20px;
+    max-width: 400px;
+  }
+  
+  .freemigration-h1 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .ul-freemigration {
+    margin-top: 20px;
   }
   
   .container-freemigration-bottom {
-    grid-template-columns: 1fr;
-    gap: 30px;
+    gap: 20px;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .freemigration-container {
+    padding: 20px 10px;
+  }
+  
+  .cards-freemigration-button {
+    width: 100%;
+    text-align: center;
+    padding: 12px 20px;
+  }
+  
+  .stars {
+    justify-content: center;
+  }
+  
+  .h1-freemigration-bottom {
+    text-align: center;
   }
 }
